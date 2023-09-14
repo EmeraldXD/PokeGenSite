@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'PF Tempesta Seven', sans-serif;
+    background: linear-gradient(45deg, gold, #FDFD96, #4091ff, #7ff9ff);
+	background-size:1000% 1000%;
+	animation: AnimatedBG 10s infinite;
+	height:100%;
+	background-repeat:no-repeat;
+}
+@keyframes AnimatedBG{
+	0%{
+		background-position: 25% 0%;	
+	}
+	50%{
+		background-position:50% 50%
+	}
+	100%{
+		background-position: 25% 0%;
+	}
+}
+
+.container {
+    background-color: #ADD8FF;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: yellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size:25px;
+    font-family: 'PF Tempesta Seven', sans-serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+  font-size:20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    font-weight:bold;
+    font-size:20px;
+}
+a{
+	color: black;
+}
+a:hover {
+	color:white;
+}
