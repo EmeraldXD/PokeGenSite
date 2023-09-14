@@ -1,7 +1,7 @@
 
 body {
     font-family: 'PF Tempesta Seven', sans-serif;
-    background: linear-gradient(45deg, gold, #FDFD96, #4091ff, #7ff9ff);
+    background: linear-gradient(45deg, yellow, #FDFD96, #4091ff, #7ff9ff);
 	background-size:1000% 1000%;
 	animation: AnimatedBG 10s infinite;
 	height:100%;
@@ -9,13 +9,13 @@ body {
 }
 @keyframes AnimatedBG{
 	0%{
-		background-position: 25% 0%;	
+		background-position: 20% 20%;	
 	}
 	50%{
 		background-position:50% 50%
 	}
 	100%{
-		background-position: 25% 0%;
+		background-position: 20% 20%;
 	}
 }
 
