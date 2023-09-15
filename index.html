@@ -1,27 +1,29 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.cdnfonts.com/css/pf-tempesta-seven" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <h1>Random Pokémon Generator</h1>
-        <button id="generateButton">Generate Pokémon</button>
-        <div id="pokemonInfo" class="hidden">
-        <h2>Name: <span id="pokemonName"></span></h2>
-        <h3 id="baseStatTotal"></h3>
-        <div id="stats">
-            <ul id="statList"></ul>
-        </div>
-        <img id="pokemonSprite" src="" alt="" width="300">
 
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.cdnfonts.com/css/pf-tempesta-seven" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Random Pokémon Generator</h1>
+            <button id="generateButton">Generate Pokémon</button>
+            <div id="pokemonInfo" class="hidden">
+                <h2>Name: <span id="pokemonName"></span></h2>
+                <h3 id="baseStatTotal"></h3>
+                <div id="stats">
+                    <ul id="statList"></ul>
+                </div>
+                <img id="pokemonSprite" src="" alt="Pokémon Sprite" width="275">
+
+            </div>
+            <h3>
+                <a href="https://poke-dnd-start.glitch.me/">Generate Starters</a>
+            </h3>
         </div>
-      <h3>
-        <a href="https://poke-dnd-start.glitch.me/">Generate Starters</a>
-      </h3>
-    </div>
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
+
 </html>
